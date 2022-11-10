@@ -8,3 +8,6 @@
 - Stack is also similar to a linked list, the elements do not have an absolute position and have a next attribute.
 - But unlike linked list a stack is defined by the top/newest position
 - In stack we are not interested in appending at the end but we push an element at top, so push and pop as O(1) time complexity
+
+### Queue
+- Queue is pretty straight forward, first in first out, we can use usual list methods to perform the basic peek, enqueue, dequeue methods
