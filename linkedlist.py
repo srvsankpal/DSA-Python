@@ -9,7 +9,6 @@ class LinkedList():
         
     def append(self, new_element):
         current = self.head
-        print(bool(self.head))
         if self.head:
             while current.next:
                 current = current.next
