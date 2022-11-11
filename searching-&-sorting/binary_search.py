@@ -14,7 +14,7 @@ def binary_search_iterative(input_array, value):
             high=mid-1
 
  #__Recursive Method__#
-def binary_search(input_array, value, low=0, high=None):
+def binary_search_recursive(input_array, value, low=0, high=None):
     if high==None:
         high=len(input_array)-1
     mid=(low+high)//2
