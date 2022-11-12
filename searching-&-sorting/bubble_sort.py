@@ -12,6 +12,7 @@ def bubblesort(array):
             return array
      
 #we know after each parsing through list the biggest element bubbles up to the end, so we can perform one less iteration each time
+#Efficient Way
 def bubblesort(array):
     k=0
     while True:
